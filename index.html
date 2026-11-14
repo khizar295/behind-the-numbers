@@ -1,0 +1,1850 @@
+<!doctype html>
+<html lang="en-NZ">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Primary Meta Tags -->
+    <title>Auckland Accountant & Tax Adviser | Behind the Numbers</title>
+    <meta
+      name="description"
+      content="Clear, responsive accounting, tax and business advisory services for Auckland businesses. Contact Behind the Numbers to discuss your accounting needs."
+    />
+    <link rel="canonical" href="https://www.behindthenumbers.co.nz/" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.behindthenumbers.co.nz/" />
+    <meta
+      property="og:title"
+      content="Auckland Accountant & Tax Adviser | Behind the Numbers"
+    />
+    <meta
+      property="og:description"
+      content="Clear, responsive accounting, tax and business advisory services for Auckland businesses. Contact Behind the Numbers to discuss your accounting needs."
+    />
+    <meta
+      property="og:image"
+      content="https://www.behindthenumbers.co.nz/images/og-image.jpg"
+    />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta
+      property="twitter:url"
+      content="https://www.behindthenumbers.co.nz/"
+    />
+    <meta
+      property="twitter:title"
+      content="Auckland Accountant & Tax Adviser | Behind the Numbers"
+    />
+    <meta
+      property="twitter:description"
+      content="Clear, responsive accounting, tax and business advisory services for Auckland businesses. Contact Behind the Numbers to discuss your accounting needs."
+    />
+    <meta
+      property="twitter:image"
+      content="https://www.behindthenumbers.co.nz/images/og-image.jpg"
+    />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="/favicon.png" />
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "AccountingService",
+        "name": "Behind the Numbers Limited",
+        "image": "https://www.behindthenumbers.co.nz/images/BTN Logo Final Transparent.png",
+        "@id": "https://www.behindthenumbers.co.nz",
+        "url": "https://www.behindthenumbers.co.nz",
+        "telephone": "+6498450700",
+        "email": "info@behindthenumbers.co.nz",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Suite 45, Royal Oak Mall, 691 Manukau Road, Royal Oak",
+          "addressLocality": "Auckland",
+          "postalCode": "1023",
+          "addressCountry": "NZ"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": -36.88,
+          "longitude": 174.74
+        },
+        "openingHoursSpecification": {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+          "opens": "09:00",
+          "closes": "17:00"
+        },
+        "sameAs": [
+          "https://www.linkedin.com/company/behindthenumbers",
+          "https://www.facebook.com/behindthenumbers"
+        ]
+      }
+    </script>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Playfair+Display:wght@700&display=swap");
+
+      body {
+        font-family: "Inter", sans-serif;
+        scroll-behavior: smooth;
+        font-size: 16px;
+      }
+      h1,
+      h2,
+      h3 {
+        font-family: "Playfair Display", serif;
+      }
+
+      .gradient-bg {
+        background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+      }
+      .cta-button {
+        transition: all 0.3s ease;
+      }
+      .cta-button:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+      }
+      .faq-content {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.3s ease-out;
+      }
+      .faq-item.active .faq-content {
+        max-height: 500px;
+      }
+      .faq-item.active .faq-icon {
+        transform: rotate(180deg);
+      }
+      *:focus-visible {
+        outline: 3px solid #2563eb;
+        outline-offset: 2px;
+      }
+
+      html {
+        scroll-behavior: smooth;
+        scroll-padding-top: 6rem;
+      }
+
+      /* Respect users who prefer reduced motion */
+      @media (prefers-reduced-motion: reduce) {
+        html {
+          scroll-behavior: auto;
+        }
+      }
+
+      /* Mobile navigation dropdown animation */
+      .mobile-submenu {
+        max-height: 0;
+        opacity: 0;
+        overflow: hidden;
+        transition:
+          max-height 0.35s ease,
+          opacity 0.25s ease;
+      }
+
+      .mobile-submenu.open {
+        max-height: 350px;
+        opacity: 1;
+      }
+
+      /* Rotate dropdown arrow when expanded */
+      .mobile-dropdown-button i {
+        transition: transform 0.3s ease;
+      }
+
+      .mobile-dropdown-button[aria-expanded="true"] i {
+        transform: rotate(180deg);
+      }
+    </style>
+  </head>
+  <body class="bg-slate-50 text-slate-900">
+    <!-- Navigation -->
+    <nav
+      class="fixed w-full z-50 bg-white/90 backdrop-blur-md border-b border-slate-200"
+    >
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex justify-between h-20 items-center">
+          <div class="flex items-center">
+            <img
+              src="images/BTN Logo Final Transparent.png"
+              alt="Behind the Numbers logo"
+              class="h-14 md:h-16 w-auto shrink-0"
+            />
+            <a
+              href="index.html"
+              class="flex items-center"
+              aria-label="Behind the Numbers Home"
+            >
+              <span class="text-2xl font-bold text-slate-900 tracking-tight"
+                >Behind the <span class="text-blue-600">Numbers</span
+                ><span class="text-sm align-top ml-1">Ltd</span></span
+              >
+            </a>
+          </div>
+          <div class="hidden lg:flex space-x-6 items-center">
+            <div class="relative group">
+              <a
+                href="/#services"
+                class="inline-flex items-center gap-2 text-slate-700 hover:text-blue-600 font-medium transition-colors py-2"
+                aria-haspopup="true"
+              >
+                Services <i class="fa-solid fa-chevron-down text-xs"></i>
+              </a>
+              <div
+                class="absolute left-0 top-full pt-3 w-80 opacity-0 invisible translate-y-2 group-hover:opacity-100 group-hover:visible group-hover:translate-y-0 group-focus-within:opacity-100 group-focus-within:visible group-focus-within:translate-y-0 transition-all duration-200"
+              >
+                <div
+                  class="bg-white rounded-xl shadow-xl border border-slate-200 p-2"
+                >
+                  <a
+                    href="annual-accounting-tax.html"
+                    class="block rounded-lg px-4 py-3 text-slate-700 hover:bg-blue-50 hover:text-blue-700 transition-colors"
+                    >Annual Accounting and Tax</a
+                  >
+                  <a
+                    href="business-advisory.html"
+                    class="block rounded-lg px-4 py-3 text-slate-700 hover:bg-blue-50 hover:text-blue-700 transition-colors"
+                    >Business Advisory and Management Reporting</a
+                  >
+                  <a
+                    href="gst-payroll-bookkeeping.html"
+                    class="block rounded-lg px-4 py-3 text-slate-700 hover:bg-blue-50 hover:text-blue-700 transition-colors"
+                    >GST, Payroll and Bookkeeping Support</a
+                  >
+                </div>
+              </div>
+            </div>
+            <a
+              href="/#who-we-help"
+              class="text-slate-700 hover:text-blue-600 font-medium transition-colors py-2"
+              >Who We Help</a
+            >
+            <a
+              href="/#why-us"
+              class="text-slate-700 hover:text-blue-600 font-medium transition-colors py-2"
+              >Why Us</a
+            >
+            <a
+              href="/#reviews"
+              class="text-slate-700 hover:text-blue-600 font-medium transition-colors py-2"
+              >Reviews</a
+            >
+            <div class="relative group">
+              <a
+                href="/#blogs"
+                class="inline-flex items-center gap-2 text-slate-700 hover:text-blue-600 font-medium transition-colors py-2"
+                aria-haspopup="true"
+              >
+                Blogs <i class="fa-solid fa-chevron-down text-xs"></i>
+              </a>
+              <div
+                class="absolute left-0 top-full pt-3 w-80 opacity-0 invisible translate-y-2 group-hover:opacity-100 group-hover:visible group-hover:translate-y-0 group-focus-within:opacity-100 group-focus-within:visible group-focus-within:translate-y-0 transition-all duration-200"
+              >
+                <div
+                  class="bg-white rounded-xl shadow-xl border border-slate-200 p-2"
+                >
+                  <a
+                    href="business-expenses.html"
+                    class="block rounded-lg px-4 py-3 text-slate-700 hover:bg-blue-50 hover:text-blue-700 transition-colors"
+                    >Business Expenses i can Explain</a
+                  >
+                  <a
+                    href="gst.html"
+                    class="block rounded-lg px-4 py-3 text-slate-700 hover:bg-blue-50 hover:text-blue-700 transition-colors"
+                    >Time to register business for GST</a
+                  >
+                  <a
+                    href="business-structure.html"
+                    class="block rounded-lg px-4 py-3 text-slate-700 hover:bg-blue-50 hover:text-blue-700 transition-colors"
+                    >A sole trader is best or a company?</a
+                  >
+                </div>
+              </div>
+            </div>
+            <a
+              href="/#about"
+              class="text-slate-700 hover:text-blue-600 font-medium transition-colors py-2"
+              >About</a
+            >
+            <a
+              href="/#contact"
+              class="bg-blue-600 text-white px-6 py-3 rounded-full font-semibold cta-button"
+              >Request a Consultation</a
+            >
+          </div>
+          <div class="lg:hidden flex items-center">
+            <button
+              id="mobile-menu-button"
+              class="text-slate-700 focus:outline-none p-2"
+              aria-label="Toggle navigation menu"
+              aria-expanded="false"
+              aria-controls="mobile-menu"
+            >
+              <i class="fa-solid fa-bars text-2xl"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div
+        id="mobile-menu"
+        class="hidden lg:hidden bg-white border-b border-slate-200 px-4 py-6 space-y-2"
+      >
+        <!-- Services Dropdown -->
+        <div class="border-b border-slate-100">
+          <button
+            type="button"
+            class="mobile-dropdown-button w-full flex justify-between items-center text-slate-700 hover:text-blue-600 font-medium py-3"
+            aria-expanded="false"
+            aria-controls="mobile-services-submenu"
+          >
+            Services
+            <i class="fa-solid fa-chevron-down text-xs"></i>
+          </button>
+
+          <div id="mobile-services-submenu" class="mobile-submenu">
+            <div class="pl-4 pb-3 space-y-2">
+              <a
+                href="annual-accounting-tax.html"
+                class="block py-2 text-sm text-slate-600 hover:text-blue-600"
+              >
+                Annual Accounting and Tax
+              </a>
+
+              <a
+                href="business-advisory.html"
+                class="block py-2 text-sm text-slate-600 hover:text-blue-600"
+              >
+                Business Advisory and Management Reporting
+              </a>
+
+              <a
+                href="gst-payroll-bookkeeping.html"
+                class="block py-2 text-sm text-slate-600 hover:text-blue-600"
+              >
+                GST, Payroll and Bookkeeping Support
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Who We Help -->
+        <a
+          href="/#who-we-help"
+          class="block text-slate-700 hover:text-blue-600 font-medium py-3 border-b border-slate-100"
+        >
+          Who We Help
+        </a>
+
+        <!-- Why Us -->
+        <a
+          href="/#why-us"
+          class="block text-slate-700 hover:text-blue-600 font-medium py-3 border-b border-slate-100"
+        >
+          Why Us
+        </a>
+
+        <!-- Reviews -->
+        <a
+          href="/#reviews"
+          class="block text-slate-700 hover:text-blue-600 font-medium py-3 border-b border-slate-100"
+        >
+          Reviews
+        </a>
+
+        <!-- Blogs Dropdown -->
+        <div class="border-b border-slate-100">
+          <button
+            type="button"
+            class="mobile-dropdown-button w-full flex justify-between items-center text-slate-700 hover:text-blue-600 font-medium py-3"
+            aria-expanded="false"
+            aria-controls="mobile-blogs-submenu"
+          >
+            Blogs
+            <i class="fa-solid fa-chevron-down text-xs"></i>
+          </button>
+
+          <div id="mobile-blogs-submenu" class="mobile-submenu">
+            <div class="pl-4 pb-3 space-y-2">
+              <a
+                href="business-expenses.html"
+                class="block py-2 text-sm text-slate-600 hover:text-blue-600"
+              >
+                Business Expenses i can Explain
+              </a>
+
+              <a
+                href="gst.html"
+                class="block py-2 text-sm text-slate-600 hover:text-blue-600"
+              >
+                Time to register business for GST
+              </a>
+
+              <a
+                href="business-structure.html"
+                class="block py-2 text-sm text-slate-600 hover:text-blue-600"
+              >
+                A sole trader is best or a company?
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- About -->
+        <a
+          href="/#about"
+          class="block text-slate-700 hover:text-blue-600 font-medium py-3 border-b border-slate-100"
+        >
+          About
+        </a>
+
+        <!-- Contact -->
+        <a
+          href="/#contact"
+          class="block bg-blue-600 text-white px-6 py-4 rounded-full text-center font-semibold mt-4"
+        >
+          Request a Consultation
+        </a>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="relative pt-32 pb-20 lg:pt-48 lg:pb-32 overflow-hidden">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+        <div class="text-center max-w-3xl mx-auto">
+          <span
+            class="inline-block py-1 px-3 rounded-full bg-blue-100 text-blue-700 text-sm font-semibold mb-6"
+          >
+            Licensed CA Firm • Based in Auckland, NZ
+          </span>
+          <h1
+            class="text-4xl lg:text-6xl font-bold leading-tight text-slate-900 mb-6"
+          >
+            Accounting and tax advice that helps your business move forward.
+          </h1>
+          <p class="text-lg lg:text-xl text-slate-700 mb-10 leading-relaxed">
+            Reliable accounting, tax and business advisory services for Auckland
+            business owners who value prompt answers, clear advice and proactive
+            support.
+          </p>
+          <div class="flex flex-col sm:flex-row justify-center gap-4 mb-8">
+            <a
+              href="#contact"
+              class="bg-blue-600 text-white px-8 py-4 rounded-lg text-lg font-bold cta-button"
+              >Request a Consultation</a
+            >
+            <a
+              href="#services"
+              class="bg-white border border-slate-300 text-slate-800 px-8 py-4 rounded-lg text-lg font-bold hover:bg-slate-50 transition-all"
+              >Explore Our Services</a
+            >
+          </div>
+          <p class="text-slate-600 text-sm font-medium">
+            Chartered Accountant &bull; Auckland-based &bull; Xero-certified
+            &bull; Prompt, personal service
+          </p>
+        </div>
+      </div>
+      <div class="absolute top-0 right-0 -z-10 opacity-10" aria-hidden="true">
+        <svg
+          width="600"
+          height="600"
+          viewBox="0 0 200 200"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            fill="#2563eb"
+            d="M44.7,-76.4C58.8,-69.2,71.8,-59.1,79.6,-45.8C87.4,-32.6,90.1,-16.3,88.5,-0.9C86.9,14.5,81,29,72.2,41.3C63.4,53.6,51.7,63.7,38.5,71.5C25.3,79.3,10.6,84.8,-4.1,84.1C-18.8,83.4,-33.5,76.5,-46.2,67.1C-58.9,57.7,-69.6,45.8,-76.3,32.1C-83,18.4,-85.7,3.1,-83.4,-12.2C-81.1,-27.5,-73.8,-42.8,-63.3,-53.8C-52.7,-64.8,-38.9,-71.5,-25.1,-77.8C-11.3,-84.1,2.5,-89.9,16.3,-88.6C30.1,-87.3,44.7,-76.4,44.7,-76.4Z"
+            transform="translate(100 100)"
+          />
+        </svg>
+      </div>
+    </section>
+
+    <!-- Trust Bar -->
+    <section class="bg-white py-12 border-y border-slate-200">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex flex-wrap justify-center items-center gap-8">
+          <div class="flex items-center gap-2 font-bold text-slate-800">
+            <i class="fa-solid fa-award text-blue-600"></i> Chartered Accountant
+          </div>
+          <div
+            class="flex items-center gap-2 font-bold text-slate-800 border-l pl-8 border-slate-300"
+          >
+            <i class="fa-solid fa-certificate text-blue-600"></i> CA ANZ Public
+            Practice
+          </div>
+          <div
+            class="flex items-center gap-2 font-bold text-slate-800 border-l pl-8 border-slate-300"
+          >
+            <i class="fa-solid fa-cloud text-blue-600"></i> Xero-Certified
+            Adviser
+          </div>
+          <div
+            class="flex items-center gap-2 font-bold text-slate-800 border-l pl-8 border-slate-300"
+          >
+            <i class="fa-solid fa-location-dot text-blue-600"></i>
+            Auckland-Based
+          </div>
+          <div
+            class="flex items-center gap-2 font-bold text-slate-800 border-l pl-8 border-slate-300"
+          >
+            <i class="fa-solid fa-star text-blue-600"></i> 5-Star Google Reviews
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Problems We Solve Section -->
+    <section class="py-24 bg-slate-50">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+          <h2 class="text-4xl font-bold text-slate-900 mb-4">
+            Accounting support that gives you clarity and confidence
+          </h2>
+          <p class="text-slate-700 max-w-2xl mx-auto text-lg">
+            Running a business is difficult enough without uncertainty about
+            your accounts, taxes or cash flow. We provide practical support so
+            you can understand where your business stands and make informed
+            decisions.
+          </p>
+        </div>
+
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
+          <div
+            class="bg-white p-6 rounded-xl shadow-sm border border-slate-200 flex items-start gap-4"
+          >
+            <div
+              class="flex-shrink-0 w-6 h-6 rounded-full bg-red-100 text-red-600 flex items-center justify-center mt-1"
+              aria-hidden="true"
+            >
+              <i class="fa-solid fa-xmark text-xs"></i>
+            </div>
+            <p class="text-slate-800 font-medium">
+              You are unsure how much tax to set aside.
+            </p>
+          </div>
+          <div
+            class="bg-white p-6 rounded-xl shadow-sm border border-slate-200 flex items-start gap-4"
+          >
+            <div
+              class="flex-shrink-0 w-6 h-6 rounded-full bg-red-100 text-red-600 flex items-center justify-center mt-1"
+              aria-hidden="true"
+            >
+              <i class="fa-solid fa-xmark text-xs"></i>
+            </div>
+            <p class="text-slate-800 font-medium">
+              Your annual accounts and tax returns are falling behind.
+            </p>
+          </div>
+          <div
+            class="bg-white p-6 rounded-xl shadow-sm border border-slate-200 flex items-start gap-4"
+          >
+            <div
+              class="flex-shrink-0 w-6 h-6 rounded-full bg-red-100 text-red-600 flex items-center justify-center mt-1"
+              aria-hidden="true"
+            >
+              <i class="fa-solid fa-xmark text-xs"></i>
+            </div>
+            <p class="text-slate-800 font-medium">
+              You do not have a clear view of cash flow or profitability.
+            </p>
+          </div>
+          <div
+            class="bg-white p-6 rounded-xl shadow-sm border border-slate-200 flex items-start gap-4"
+          >
+            <div
+              class="flex-shrink-0 w-6 h-6 rounded-full bg-red-100 text-red-600 flex items-center justify-center mt-1"
+              aria-hidden="true"
+            >
+              <i class="fa-solid fa-xmark text-xs"></i>
+            </div>
+            <p class="text-slate-800 font-medium">
+              You need timely answers from your accountant.
+            </p>
+          </div>
+          <div
+            class="bg-white p-6 rounded-xl shadow-sm border border-slate-200 flex items-start gap-4"
+          >
+            <div
+              class="flex-shrink-0 w-6 h-6 rounded-full bg-red-100 text-red-600 flex items-center justify-center mt-1"
+              aria-hidden="true"
+            >
+              <i class="fa-solid fa-xmark text-xs"></i>
+            </div>
+            <p class="text-slate-800 font-medium">
+              Your Xero records need correction or ongoing support.
+            </p>
+          </div>
+          <div
+            class="bg-white p-6 rounded-xl shadow-sm border border-slate-200 flex items-start gap-4"
+          >
+            <div
+              class="flex-shrink-0 w-6 h-6 rounded-full bg-red-100 text-red-600 flex items-center justify-center mt-1"
+              aria-hidden="true"
+            >
+              <i class="fa-solid fa-xmark text-xs"></i>
+            </div>
+            <p class="text-slate-800 font-medium">
+              You need reliable financial information to support business
+              decisions.
+            </p>
+          </div>
+        </div>
+
+        <div class="text-center mt-16">
+          <a
+            href="#contact"
+            class="bg-blue-600 text-white px-10 py-4 rounded-lg text-lg font-bold cta-button inline-block"
+          >
+            Request a Consultation
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-24 bg-slate-50">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+          <h2 class="text-4xl font-bold text-slate-900 mb-4">
+            Chartered Accounting and Tax Services in Auckland
+          </h2>
+          <p class="text-slate-700 max-w-2xl mx-auto text-lg">
+            Specialised support to ensure your business remains compliant,
+            efficient, and primed for growth.
+          </p>
+        </div>
+
+        <div class="grid md:grid-cols-3 gap-8">
+          <!-- Service 1: Annual Accounting & Tax -->
+          <div
+            class="bg-white p-8 rounded-2xl shadow-sm border border-slate-100 hover:border-blue-500 transition-colors group flex flex-col"
+          >
+            <div
+              class="w-14 h-14 bg-blue-100 text-blue-600 rounded-lg flex items-center justify-center mb-6 group-hover:bg-blue-600 group-hover:text-white transition-all"
+              aria-hidden="true"
+            >
+              <i class="fa-solid fa-file-invoice text-2xl"></i>
+            </div>
+            <h3 class="text-2xl font-bold mb-3">Annual Accounting and Tax</h3>
+            <p class="text-slate-700 mb-6 flex-grow">
+              Accurate, timely annual accounts and tax returns, supported by
+              practical advice that helps you understand your results and
+              obligations.
+            </p>
+            <ul class="space-y-3 text-slate-700 text-sm mb-8">
+              <li class="flex items-center">
+                <i class="fa-solid fa-circle-check text-blue-500 mr-2"></i>
+                Annual financial statements
+              </li>
+              <li class="flex items-center">
+                <i class="fa-solid fa-circle-check text-blue-500 mr-2"></i>
+                Income tax returns
+              </li>
+              <li class="flex items-center">
+                <i class="fa-solid fa-circle-check text-blue-500 mr-2"></i> GST
+                and FBT compliance
+              </li>
+              <li class="flex items-center">
+                <i class="fa-solid fa-circle-check text-blue-500 mr-2"></i> Tax
+                planning and advice
+              </li>
+              <li class="flex items-center">
+                <i class="fa-solid fa-circle-check text-blue-500 mr-2"></i>
+                Companies, trusts and sole traders
+              </li>
+            </ul>
+
+            <a
+              href="#contact"
+              class="text-center bg-slate-100 text-slate-800 py-3 rounded-lg font-semibold hover:bg-blue-600 hover:text-white transition-all duration-300"
+              >Request a Consultation</a
+            >
+            <a
+              href="annual-accounting-tax.html"
+              class="pt-5 inline-flex items-center justify-center gap-2 text-blue-600 font-semibold hover:text-blue-800 transition-colors"
+              >Explore this service
+              <i class="fa-solid fa-arrow-right text-sm"></i
+            ></a>
+          </div>
+
+          <!-- Service 2: Business Advisory -->
+          <div
+            class="bg-white p-8 rounded-2xl shadow-sm border border-slate-100 hover:border-blue-500 transition-colors group flex flex-col"
+          >
+            <div
+              class="w-14 h-14 bg-blue-100 text-blue-600 rounded-lg flex items-center justify-center mb-6 group-hover:bg-blue-600 group-hover:text-white transition-all"
+              aria-hidden="true"
+            >
+              <i class="fa-solid fa-chart-pie text-2xl"></i>
+            </div>
+            <h3 class="text-2xl font-bold mb-3">
+              Business Advisory and Management Reporting
+            </h3>
+            <p class="text-slate-700 mb-6 flex-grow">
+              Clear financial information and practical advice to help you
+              improve profitability, manage cash flow and make confident
+              business decisions.
+            </p>
+            <ul class="space-y-3 text-slate-700 text-sm mb-8">
+              <li class="flex items-center">
+                <i class="fa-solid fa-circle-check text-blue-500 mr-2"></i>
+                Management accounts
+              </li>
+              <li class="flex items-center">
+                <i class="fa-solid fa-circle-check text-blue-500 mr-2"></i>
+                Budgeting and forecasting
+              </li>
+              <li class="flex items-center">
+                <i class="fa-solid fa-circle-check text-blue-500 mr-2"></i>
+                Cash-flow planning
+              </li>
+              <li class="flex items-center">
+                <i class="fa-solid fa-circle-check text-blue-500 mr-2"></i>
+                Profitability analysis
+              </li>
+              <li class="flex items-center">
+                <i class="fa-solid fa-circle-check text-blue-500 mr-2"></i>
+                Business structure and growth advice
+              </li>
+            </ul>
+            <a
+              href="#contact"
+              class="text-center bg-slate-100 text-slate-800 py-3 rounded-lg font-semibold hover:bg-blue-600 hover:text-white transition-all duration-300"
+              >Request a Consultation</a
+            >
+            <a
+              href="business-advisory.html"
+              class="pt-5 inline-flex items-center justify-center gap-2 text-blue-600 font-semibold hover:text-blue-800 transition-colors"
+              >Explore this service
+              <i class="fa-solid fa-arrow-right text-sm"></i
+            ></a>
+          </div>
+
+          <!-- Service 3: GST, Payroll & Bookkeeping -->
+          <div
+            class="bg-white p-8 rounded-2xl shadow-sm border border-slate-100 hover:border-blue-500 transition-colors group flex flex-col"
+          >
+            <div
+              class="w-14 h-14 bg-blue-100 text-blue-600 rounded-lg flex items-center justify-center mb-6 group-hover:bg-blue-600 group-hover:text-white transition-all"
+              aria-hidden="true"
+            >
+              <i class="fa-solid fa-book text-2xl"></i>
+            </div>
+            <h3 class="text-2xl font-bold mb-3">
+              GST, Payroll and Bookkeeping Support
+            </h3>
+            <p class="text-slate-700 mb-6 flex-grow">
+              Reliable day-to-day accounting support that keeps your records
+              accurate, current and ready for reporting.
+            </p>
+            <ul class="space-y-3 text-slate-700 text-sm mb-8">
+              <li class="flex items-center">
+                <i class="fa-solid fa-circle-check text-blue-500 mr-2"></i> Xero
+                setup and support
+              </li>
+              <li class="flex items-center">
+                <i class="fa-solid fa-circle-check text-blue-500 mr-2"></i> Bank
+                reconciliations
+              </li>
+              <li class="flex items-center">
+                <i class="fa-solid fa-circle-check text-blue-500 mr-2"></i> GST
+                return preparation
+              </li>
+              <li class="flex items-center">
+                <i class="fa-solid fa-circle-check text-blue-500 mr-2"></i>
+                Payroll assistance
+              </li>
+              <li class="flex items-center">
+                <i class="fa-solid fa-circle-check text-blue-500 mr-2"></i>
+                Accounts payable and receivable
+              </li>
+            </ul>
+            <a
+              href="#contact"
+              class="text-center bg-slate-100 text-slate-800 py-3 rounded-lg font-semibold hover:bg-blue-600 hover:text-white transition-all duration-300"
+              >Request a Consultation</a
+            >
+            <a
+              href="gst-payroll-bookkeeping.html"
+              class="pt-5 inline-flex items-center justify-center gap-2 text-blue-600 font-semibold hover:text-blue-800 transition-colors"
+              >Explore this service
+              <i class="fa-solid fa-arrow-right text-sm"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Who We Help Section -->
+    <section id="who-we-help" class="py-24 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+          <h2 class="text-4xl font-bold text-slate-900 mb-4">
+            Accounting support tailored to your business
+          </h2>
+          <p class="text-slate-700 max-w-2xl mx-auto text-lg">
+            We work with Auckland business owners who want reliable compliance
+            services, responsive support and advice they can understand.
+          </p>
+        </div>
+
+        <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div
+            class="p-6 rounded-2xl bg-slate-50 border border-slate-100 hover:shadow-md transition-shadow"
+          >
+            <div class="text-blue-600 mb-4" aria-hidden="true">
+              <i class="fa-solid fa-user-tie text-2xl"></i>
+            </div>
+            <h3 class="text-xl font-bold mb-2">Owner-operated businesses</h3>
+            <p class="text-slate-700 text-base">
+              Comprehensive support for entrepreneurs who need their finances
+              managed accurately so they can focus on daily operations.
+            </p>
+          </div>
+          <div
+            class="p-6 rounded-2xl bg-slate-50 border border-slate-100 hover:shadow-md transition-shadow"
+          >
+            <div class="text-blue-600 mb-4" aria-hidden="true">
+              <i class="fa-solid fa-laptop text-2xl"></i>
+            </div>
+            <h3 class="text-xl font-bold mb-2">Contractors and consultants</h3>
+            <p class="text-slate-700 text-base">
+              Simplifying tax returns and obligations for independent
+              professionals and contract-based specialists.
+            </p>
+          </div>
+          <div
+            class="p-6 rounded-2xl bg-slate-50 border border-slate-100 hover:shadow-md transition-shadow"
+          >
+            <div class="text-blue-600 mb-4" aria-hidden="true">
+              <i class="fa-solid fa-briefcase text-2xl"></i>
+            </div>
+            <h3 class="text-xl font-bold mb-2">Professional service firms</h3>
+            <p class="text-slate-700 text-base">
+              Strategic reporting and tax efficiency for boutique firms,
+              consultants, and specialised service providers.
+            </p>
+          </div>
+          <div
+            class="p-6 rounded-2xl bg-slate-50 border border-slate-100 hover:shadow-md transition-shadow"
+          >
+            <div class="text-blue-600 mb-4" aria-hidden="true">
+              <i class="fa-solid fa-wrench text-2xl"></i>
+            </div>
+            <h3 class="text-xl font-bold mb-2">Trades and construction</h3>
+            <p class="text-slate-700 text-base">
+              Practical accounting for builders and tradies, focusing on project
+              profitability and GST compliance.
+            </p>
+          </div>
+          <div
+            class="p-6 rounded-2xl bg-slate-50 border border-slate-100 hover:shadow-md transition-shadow"
+          >
+            <div class="text-blue-600 mb-4" aria-hidden="true">
+              <i class="fa-solid fa-house-chimney text-2xl"></i>
+            </div>
+            <h3 class="text-xl font-bold mb-2">Property investors</h3>
+            <p class="text-slate-700 text-base">
+              Simplifying the complexity of rental portfolios, trust accounting,
+              and property-related tax obligations.
+            </p>
+          </div>
+          <div
+            class="p-6 rounded-2xl bg-slate-50 border border-slate-100 hover:shadow-md transition-shadow"
+          >
+            <div class="text-blue-600 mb-4" aria-hidden="true">
+              <i class="fa-solid fa-hand-holding-heart text-2xl"></i>
+            </div>
+            <h3 class="text-xl font-bold mb-2">
+              Charities and Not-for-profits
+            </h3>
+            <p class="text-slate-700 text-base">
+              Dedicated support for community-focused organisations， ensuring
+              transparent reporting and regulatory compliance.
+            </p>
+          </div>
+        </div>
+
+        <div class="text-center mt-16">
+          <a
+            href="#contact"
+            class="bg-blue-600 text-white px-10 py-4 rounded-lg text-lg font-bold cta-button inline-block"
+          >
+            Request a Consultation
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why Us Section -->
+    <section id="why-us" class="py-24 gradient-bg text-white overflow-hidden">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid lg:grid-cols-2 gap-16 items-center">
+          <div class="relative">
+            <div class="bg-blue-600 p-2 rounded-2xl rotate-3 shadow-2xl">
+              <img
+                src="images/office-interior-nz.jpg"
+                alt="Modern professional accounting office in Auckland"
+                class="rounded-xl -rotate-3 hover:rotate-0 transition-transform duration-500 bg-slate-200"
+              />
+            </div>
+          </div>
+          <div class="">
+            <h2 class="text-4xl font-bold mb-6 leading-tight">
+              Why businesses choose Behind the Numbers
+            </h2>
+            <p class="text-slate-300 text-lg mb-8">
+              You need more than completed accounts and a tax bill. You need an
+              accountant who responds promptly, explains the numbers clearly and
+              helps you prepare for what comes next.
+            </p>
+            <div class="grid gap-6">
+              <div class="flex gap-4">
+                <div
+                  class="flex-shrink-0 w-12 h-12 bg-blue-500/20 rounded-full flex items-center justify-center text-blue-400"
+                  aria-hidden="true"
+                >
+                  <i class="fa-solid fa-bolt"></i>
+                </div>
+                <div class="">
+                  <h4 class="text-xl font-semibold mb-1">
+                    Prompt and responsive
+                  </h4>
+                  <p class="text-slate-300">
+                    We understand that business questions cannot always wait. We
+                    aim to provide timely answers and keep you informed
+                    throughout the process.
+                  </p>
+                </div>
+              </div>
+              <div class="flex gap-4">
+                <div
+                  class="flex-shrink-0 w-12 h-12 bg-blue-500/20 rounded-full flex items-center justify-center text-blue-400"
+                  aria-hidden="true"
+                >
+                  <i class="fa-solid fa-comments"></i>
+                </div>
+                <div class="">
+                  <h4 class="text-xl font-semibold mb-1">
+                    Clear, practical advice
+                  </h4>
+                  <p class="text-slate-300">
+                    We explain accounting and tax matters in straightforward
+                    language, without unnecessary jargon.
+                  </p>
+                </div>
+              </div>
+              <div class="flex gap-4">
+                <div
+                  class="flex-shrink-0 w-12 h-12 bg-blue-500/20 rounded-full flex items-center justify-center text-blue-400"
+                  aria-hidden="true"
+                >
+                  <i class="fa-solid fa-search"></i>
+                </div>
+                <div class="">
+                  <h4 class="text-xl font-semibold mb-1">Proactive support</h4>
+                  <p class="text-slate-300">
+                    We help you identify upcoming obligations, financial risks
+                    and opportunities before they become urgent.
+                  </p>
+                </div>
+              </div>
+              <div class="flex gap-4">
+                <div
+                  class="flex-shrink-0 w-12 h-12 bg-blue-500/20 rounded-full flex items-center justify-center text-blue-400"
+                  aria-hidden="true"
+                >
+                  <i class="fa-solid fa-award"></i>
+                </div>
+                <div class="">
+                  <h4 class="text-xl font-semibold mb-1">
+                    Experienced professional guidance
+                  </h4>
+                  <p class="text-slate-300">
+                    Your work is overseen by an experienced Chartered Accountant
+                    with accounting, tax, audit and commercial experience.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section id="reviews" class="py-24 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+          <h2 class="text-4xl font-bold text-slate-900 mb-4">
+            Trusted by Auckland businesses
+          </h2>
+          <p class="text-slate-700 max-w-2xl mx-auto text-lg">
+            Our clients value prompt communication, clear explanations and
+            professional support. Here is what they have said about working with
+            us.
+          </p>
+        </div>
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div
+            class="bg-slate-50 p-8 rounded-2xl border border-slate-100 flex flex-col h-full"
+          >
+            <div class="text-yellow-500 mb-2 text-sm flex items-center gap-1">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i>
+              <span class="text-slate-500 ml-1 font-medium"
+                >Verified Google Review</span
+              >
+            </div>
+            <p class="text-slate-800 mb-6 italic leading-relaxed flex-grow">
+              “Sheed helped me better understand my tax returns for contract
+              work and gave me advice on making the process easier in future. I
+              look forward to working with him again.”
+            </p>
+            <div class="font-bold text-slate-900">— Ben Flavell</div>
+          </div>
+          <div
+            class="bg-slate-50 p-8 rounded-2xl border border-slate-100 flex flex-col h-full"
+          >
+            <div class="text-yellow-500 mb-2 text-sm flex items-center gap-1">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i>
+              <span class="text-slate-500 ml-1 font-medium"
+                >Verified Google Review</span
+              >
+            </div>
+            <p class="text-slate-800 mb-6 italic leading-relaxed flex-grow">
+              “Fantastic experience doing my accounts—stress-free and efficient.
+              Everything was clearly explained, and all my questions were
+              answered. Highly recommend.”
+            </p>
+            <div class="font-bold text-slate-900">— Tracy Fisher</div>
+          </div>
+          <div
+            class="bg-slate-50 p-8 rounded-2xl border border-slate-100 flex flex-col h-full"
+          >
+            <div class="text-yellow-500 mb-2 text-sm flex items-center gap-1">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i>
+              <span class="text-slate-500 ml-1 font-medium"
+                >Verified Google Review</span
+              >
+            </div>
+            <p class="text-slate-800 mb-6 italic leading-relaxed flex-grow">
+              “They are very proactive and professional. Sheed’s friendly
+              personality as an accountant has a positive impact on his
+              customers. I highly recommend them.”
+            </p>
+            <div class="font-bold text-slate-900">— Ayesha Siddiqa</div>
+          </div>
+          <div
+            class="bg-slate-50 p-8 rounded-2xl border border-slate-100 flex flex-col h-full"
+          >
+            <div class="text-yellow-500 mb-2 text-sm flex items-center gap-1">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i>
+              <span class="text-slate-500 ml-1 font-medium"
+                >Verified Google Review</span
+              >
+            </div>
+            <p class="text-slate-800 mb-6 italic leading-relaxed flex-grow">
+              “Sheed is very easy to work with. He has a relaxed manner while
+              remaining highly professional. I would recommend his services
+              anytime.”
+            </p>
+            <div class="font-bold text-slate-900">— Leon & Veronica Turner</div>
+          </div>
+          <div
+            class="bg-slate-50 p-8 rounded-2xl border border-slate-100 flex flex-col h-full"
+          >
+            <div class="text-yellow-500 mb-2 text-sm flex items-center gap-1">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i>
+              <span class="text-slate-500 ml-1 font-medium"
+                >Verified Google Review</span
+              >
+            </div>
+            <p class="text-slate-800 mb-6 italic leading-relaxed flex-grow">
+              “Excellent and professional service. Sheed is very proactive and
+              helpful. Thank you once again for your services.”
+            </p>
+            <div class="font-bold text-slate-900">— Maninder Singh</div>
+          </div>
+          <div
+            class="bg-slate-50 p-8 rounded-2xl border border-slate-100 flex flex-col h-full"
+          >
+            <div class="text-yellow-500 mb-2 text-sm flex items-center gap-1">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i>
+              <span class="text-slate-500 ml-1 font-medium"
+                >Verified Google Review</span
+              >
+            </div>
+            <p class="text-slate-800 mb-6 italic leading-relaxed flex-grow">
+              “A truly proactive partner for our business. Clear communication
+              and total professionalism in every interaction. Highly recommended
+              for any NZ business owner.”
+            </p>
+            <div class="font-bold text-slate-900">— Client Review</div>
+          </div>
+        </div>
+        <div class="text-center mt-12">
+          <a
+            href="https://google.com/search?q=Behind+the+Numbers+Auckland+reviews"
+            class="text-blue-600 font-semibold hover:text-blue-800 transition-colors inline-flex items-center gap-2"
+          >
+            Read All Our Google Reviews
+            <i class="fa-solid fa-arrow-right text-sm"></i>
+          </a>
+          <p class="text-slate-500 text-xs mt-4">
+            Some reviews have been lightly edited for length and readability.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-24 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid lg:grid-cols-2 gap-16 items-center">
+          <div class="order-2 lg:order-1">
+            <img
+              src="images/sheed-professional-photo.jpg"
+              alt="Professional portrait of Sheed Ali, Director of Behind the Numbers"
+              class="rounded-2xl shadow-xl w-full object-cover aspect-square bg-slate-100"
+            />
+          </div>
+          <div class="order-1 lg:order-2">
+            <h2 class="text-4xl font-bold text-slate-900 mb-6">
+              Experienced advice with a personal approach
+            </h2>
+            <div class="space-y-6 text-slate-700 text-lg leading-relaxed">
+              <p>
+                <strong class="text-slate-900">Sheed Ali</strong> is a Chartered
+                Accountant and public practice director with experience across
+                professional services, taxation, commercial accounting and
+                business advisory.
+              </p>
+              <p>
+                His career has included roles with
+                <strong class="text-slate-900">Deloitte</strong> and
+                <strong class="text-slate-900">PwC</strong>, together with
+                senior tax, internal audit, financial accounting and management
+                accounting experience. His combined accounting and engineering
+                background brings a disciplined and analytical approach to
+                solving financial and tax problems.
+              </p>
+              <p>
+                Through
+                <strong class="text-slate-900">Behind the Numbers</strong>,
+                Sheed provides business owners with clear, timely advice and the
+                confidence that their accounting and tax obligations are being
+                properly managed.
+              </p>
+              <div class="bg-blue-50 p-6 rounded-xl border-l-4 border-blue-600">
+                <p class="text-slate-800 font-medium italic">
+                  “My aim is to give business owners clear, timely advice and
+                  the confidence that their accounting and tax obligations are
+                  being properly managed.”
+                </p>
+              </div>
+              <a
+                href="#contact"
+                class="inline-block bg-blue-600 text-white px-8 py-3 rounded-lg font-bold hover:bg-blue-700 transition-all cta-button"
+                >Request a Consultation</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="py-24 bg-slate-50">
+      <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+          <h2 class="text-4xl font-bold text-slate-900 mb-4">
+            Frequently asked questions
+          </h2>
+        </div>
+        <div class="space-y-4">
+          <div
+            class="faq-item bg-white rounded-xl border border-slate-200 overflow-hidden"
+          >
+            <button
+              class="w-full p-6 text-left flex justify-between items-center font-semibold text-slate-900 hover:bg-slate-50 transition-colors"
+              aria-expanded="false"
+              aria-controls="faq-initial"
+            >
+              <span>How do I arrange an initial consultation?</span>
+              <i
+                class="fa-solid fa-chevron-down faq-icon transition-transform duration-300 text-slate-400"
+                aria-hidden="true"
+              ></i>
+            </button>
+            <div id="faq-initial" class="faq-content">
+              <div class="p-6 pt-0 text-slate-700 leading-relaxed">
+                Send us an email or call us on your number below to book a time
+                for an initial consultation.
+              </div>
+            </div>
+          </div>
+          <div
+            class="faq-item bg-white rounded-xl border border-slate-200 overflow-hidden"
+          >
+            <button
+              class="w-full p-6 text-left flex justify-between items-center font-semibold text-slate-900 hover:bg-slate-50 transition-colors"
+              aria-expanded="false"
+              aria-controls="faq1"
+            >
+              <span>Can you take over from my existing accountant?</span>
+              <i
+                class="fa-solid fa-chevron-down faq-icon transition-transform duration-300 text-slate-400"
+                aria-hidden="true"
+              ></i>
+            </button>
+            <div id="faq1" class="faq-content">
+              <div class="p-6 pt-0 text-slate-700 leading-relaxed">
+                Yes. Changing accountants is generally straightforward. Once you
+                authorise us to act, we can contact your existing accountant and
+                help manage the professional handover.
+              </div>
+            </div>
+          </div>
+          <div
+            class="faq-item bg-white rounded-xl border border-slate-200 overflow-hidden"
+          >
+            <button
+              class="w-full p-6 text-left flex justify-between items-center font-semibold text-slate-900 hover:bg-slate-50 transition-colors"
+              aria-expanded="false"
+              aria-controls="faq2"
+            >
+              <span>Do you work with clients outside Auckland?</span>
+              <i
+                class="fa-solid fa-chevron-down faq-icon transition-transform duration-300 text-slate-400"
+                aria-hidden="true"
+              ></i>
+            </button>
+            <div id="faq2" class="faq-content">
+              <div class="p-6 pt-0 text-slate-700 leading-relaxed">
+                Yes. Our cloud-based systems allow us to work efficiently with
+                clients throughout New Zealand, while also providing in-person
+                support from our Auckland office.
+              </div>
+            </div>
+          </div>
+          <div
+            class="faq-item bg-white rounded-xl border border-slate-200 overflow-hidden"
+          >
+            <button
+              class="w-full p-6 text-left flex justify-between items-center font-semibold text-slate-900 hover:bg-slate-50 transition-colors"
+              aria-expanded="false"
+              aria-controls="faq3"
+            >
+              <span>What accounting software do you support?</span>
+              <i
+                class="fa-solid fa-chevron-down faq-icon transition-transform duration-300 text-slate-400"
+                aria-hidden="true"
+              ></i>
+            </button>
+            <div id="faq3" class="faq-content">
+              <div class="p-6 pt-0 text-slate-700 leading-relaxed">
+                We primarily work with Xero and MYOB, and can assist with setup,
+                corrections, reporting and ongoing accounting support.
+              </div>
+            </div>
+          </div>
+          <div
+            class="faq-item bg-white rounded-xl border border-slate-200 overflow-hidden"
+          >
+            <button
+              class="w-full p-6 text-left flex justify-between items-center font-semibold text-slate-900 hover:bg-slate-50 transition-colors"
+              aria-expanded="false"
+              aria-controls="faq4"
+            >
+              <span>Do you offer fixed fees?</span>
+              <i
+                class="fa-solid fa-chevron-down faq-icon transition-transform duration-300 text-slate-400"
+                aria-hidden="true"
+              ></i>
+            </button>
+            <div id="faq4" class="faq-content">
+              <div class="p-6 pt-0 text-slate-700 leading-relaxed">
+                Where the scope of work is clear, we can provide an agreed fee
+                or ongoing service package. Contact us for a quote tailored to
+                your business and requirements.
+              </div>
+            </div>
+          </div>
+          <div
+            class="faq-item bg-white rounded-xl border border-slate-200 overflow-hidden"
+          >
+            <button
+              class="w-full p-6 text-left flex justify-between items-center font-semibold text-slate-900 hover:bg-slate-50 transition-colors"
+              aria-expanded="false"
+              aria-controls="faq5"
+            >
+              <span>What information do you need to provide a quote?</span>
+              <i
+                class="fa-solid fa-chevron-down faq-icon transition-transform duration-300 text-slate-400"
+                aria-hidden="true"
+              ></i>
+            </button>
+            <div id="faq5" class="faq-content">
+              <div class="p-6 pt-0 text-slate-700 leading-relaxed">
+                We will usually ask about your business structure, annual
+                turnover, accounting software, GST and payroll requirements,
+                current record quality and the services you require.
+              </div>
+            </div>
+          </div>
+          <div
+            class="faq-item bg-white rounded-xl border border-slate-200 overflow-hidden"
+          >
+            <button
+              class="w-full p-6 text-left flex justify-between items-center font-semibold text-slate-900 hover:bg-slate-50 transition-colors"
+              aria-expanded="false"
+              aria-controls="faq6"
+            >
+              <span>How quickly will you respond?</span>
+              <i
+                class="fa-solid fa-chevron-down faq-icon transition-transform duration-300 text-slate-400"
+                aria-hidden="true"
+              ></i>
+            </button>
+            <div id="faq6" class="faq-content">
+              <div class="p-6 pt-0 text-slate-700 leading-relaxed">
+                We aim to acknowledge new enquiries within one to two business
+                days.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Blogs Section -->
+    <section id="blogs" class="py-24 bg-white scroll-mt-24">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+          <p
+            class="text-blue-600 font-semibold uppercase tracking-wider text-sm mb-3"
+          >
+            Helpful tax insights
+          </p>
+          <h2 class="text-4xl font-bold text-slate-900 mb-4">
+            Tax questions, explained clearly
+          </h2>
+          <p class="text-slate-700 max-w-2xl mx-auto text-lg">
+            Straightforward guidance on common accounting and tax questions for
+            New Zealand business owners.
+          </p>
+        </div>
+
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <article
+            id="blog-business-expenses"
+            class="bg-slate-50 rounded-2xl border border-slate-200 p-8 flex flex-col scroll-mt-28"
+          >
+            <span
+              class="text-blue-700 text-sm font-semibold uppercase tracking-wider mb-4"
+              >Business expenses</span
+            >
+            <h3 class="text-xl font-bold text-slate-900 mb-4">
+              Which business expenses can I claim?
+            </h3>
+            <div class="text-slate-700 leading-relaxed space-y-3 flex-grow">
+              <p>
+                In general, a business may be able to claim expenses that are
+                genuinely connected with earning its income. Common examples can
+                include business-use software, office costs, professional fees,
+                advertising and work-related travel.
+              </p>
+              <p>
+                Private or personal costs are not automatically deductible. If
+                something is used for both business and personal purposes, you
+                may need to identify and claim only the business portion.
+              </p>
+              <p class="text-sm text-slate-600">
+                Keep invoices, receipts and a clear record of the business
+                purpose. The correct treatment depends on the facts and the
+                applicable Inland Revenue rules.
+              </p>
+            </div>
+            <a
+              href="business-expenses.html"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="inline-flex items-center gap-2 text-blue-700 hover:text-blue-800 font-semibold mt-6"
+              >Learn more <i class="fa-solid fa-arrow-right text-xs"></i
+            ></a>
+            <a
+              href="https://www.ird.govt.nz/income-tax/income-tax-for-businesses-and-organisations"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="inline-flex items-center gap-2 text-blue-700 hover:text-blue-800 font-semibold mt-6"
+              >Explore business tax guidance
+              <i class="fa-solid fa-arrow-up-right-from-square text-xs"></i
+            ></a>
+          </article>
+
+          <article
+            id="blog-gst-registration"
+            class="bg-slate-50 rounded-2xl border border-slate-200 p-8 flex flex-col scroll-mt-28"
+          >
+            <span
+              class="text-blue-700 text-sm font-semibold uppercase tracking-wider mb-4"
+              >GST</span
+            >
+            <h3 class="text-xl font-bold text-slate-900 mb-4">
+              When does my business need to register for GST?
+            </h3>
+            <div class="text-slate-700 leading-relaxed space-y-3 flex-grow">
+              <p>
+                In New Zealand, GST registration is generally required when your
+                taxable activity meets the registration threshold set by Inland
+                Revenue, or when you expect it to reach that threshold in the
+                relevant period.
+              </p>
+              <p>
+                You can also choose to register voluntarily in some
+                circumstances. Before deciding, consider how GST will affect
+                your prices, invoices, returns, record keeping and cash flow.
+              </p>
+              <p class="text-sm text-slate-600">
+                The threshold and your circumstances matter, so check the
+                current Inland Revenue requirements before registering or
+                deciding that registration is not needed.
+              </p>
+            </div>
+            <a
+              href="gst.html"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="inline-flex items-center gap-2 text-blue-700 hover:text-blue-800 font-semibold mt-6"
+              >Learn more <i class="fa-solid fa-arrow-right text-xs"></i
+            ></a>
+            <a
+              href="https://www.ird.govt.nz/gst/registering-for-gst"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="inline-flex items-center gap-2 text-blue-700 hover:text-blue-800 font-semibold mt-6"
+              >Explore GST registration guidance
+              <i class="fa-solid fa-arrow-up-right-from-square text-xs"></i
+            ></a>
+          </article>
+
+          <article
+            id="blog-business-structure"
+            class="bg-slate-50 rounded-2xl border border-slate-200 p-8 flex flex-col scroll-mt-28"
+          >
+            <span
+              class="text-blue-700 text-sm font-semibold uppercase tracking-wider mb-4"
+              >Business structure</span
+            >
+            <h3 class="text-xl font-bold text-slate-900 mb-4">
+              Should I operate as a sole trader or a company?
+            </h3>
+            <div class="text-slate-700 leading-relaxed space-y-3 flex-grow">
+              <p>
+                A sole trader structure can be simpler to establish and
+                administer. The individual carries on the business personally
+                and is generally responsible for its business obligations.
+              </p>
+              <p>
+                A company is a separate legal entity. It can provide a different
+                ownership and governance structure, but it also brings
+                additional administration, reporting and compliance
+                responsibilities.
+              </p>
+              <p class="text-sm text-slate-600">
+                The right option depends on your business plans, risk, finances
+                and circumstances. It is worth getting advice before choosing or
+                changing your structure.
+              </p>
+            </div>
+            <a
+              href="business-structure.html"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="inline-flex items-center gap-2 text-blue-700 hover:text-blue-800 font-semibold mt-6"
+              >Learn more <i class="fa-solid fa-arrow-right text-xs"></i
+            ></a>
+            <a
+              href="https://www.business.govt.nz/getting-started/choosing-the-right-business-structure/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="inline-flex items-center gap-2 text-blue-700 hover:text-blue-800 font-semibold mt-6"
+              >Explore business structure guidance
+              <i class="fa-solid fa-arrow-up-right-from-square text-xs"></i
+            ></a>
+          </article>
+        </div>
+
+        <p class="text-sm text-slate-500 text-center mt-10 max-w-3xl mx-auto">
+          This information is general guidance only and is not a substitute for
+          advice based on your individual circumstances. Tax rules can change;
+          refer to Inland Revenue or speak with your accountant for advice
+          specific to your business.
+        </p>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-24 bg-slate-50">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div
+          class="bg-white rounded-3xl shadow-xl overflow-hidden grid lg:grid-cols-2"
+        >
+          <div class="p-8 lg:p-16 gradient-bg text-white">
+            <h2 class="text-4xl font-bold mb-6">
+              Let’s discuss what your business needs
+            </h2>
+            <p class="text-slate-300 mb-10 text-lg">
+              We are ready to help you uncover the story behind your numbers and
+              optimise your business for the future.
+            </p>
+
+            <div class="space-y-6">
+              <div class="flex items-start gap-4">
+                <i
+                  class="fa-solid fa-location-dot text-blue-400 text-xl mt-1"
+                  aria-hidden="true"
+                ></i>
+                <span class="leading-relaxed"
+                  >Suite 45, Royal Oak Mall,<br />691 Manukau Road, Royal
+                  Oak,<br />Auckland 1023</span
+                >
+              </div>
+              <div class="flex items-center gap-4">
+                <i
+                  class="fa-solid fa-envelope text-blue-400 text-xl"
+                  aria-hidden="true"
+                ></i>
+                <a
+                  href="mailto:info@behindthenumbers.co.nz"
+                  class="hover:text-blue-300 transition-colors"
+                  >info@behindthenumbers.co.nz</a
+                >
+              </div>
+              <div class="flex items-center gap-4">
+                <i
+                  class="fa-solid fa-phone text-blue-400 text-xl"
+                  aria-hidden="true"
+                ></i>
+                <a
+                  href="tel:+6498450700"
+                  class="hover:text-blue-300 transition-colors"
+                  >+64 9 845 0700</a
+                >
+              </div>
+            </div>
+
+            <div class="mt-12 flex gap-6">
+              <a
+                href="https://www.linkedin.com/company/behindthenumbers"
+                class="text-2xl text-slate-400 hover:text-white transition-colors"
+                aria-label="LinkedIn Profile"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+              <a
+                href="https://www.facebook.com/behindthenumbers"
+                class="text-2xl text-slate-400 hover:text-white transition-colors"
+                aria-label="Facebook Page"
+                ><i class="fa-brands fa-facebook"></i
+              ></a>
+            </div>
+          </div>
+          <div
+            class="p-8 lg:p-16 flex flex-col justify-center items-center text-center"
+          >
+            <h3 class="text-3xl font-bold text-slate-900 mb-6">
+              Start a Conversation
+            </h3>
+            <p class="text-slate-700 mb-10 text-lg max-w-md">
+              Ready to optimise your business finances? Reach out to us today
+              for a prompt, professional consultation.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4 w-full max-w-md">
+              <a
+                href="mailto:info@behindthenumbers.co.nz"
+                class="flex-1 bg-blue-600 text-white py-4 rounded-lg font-bold text-lg hover:bg-blue-700 transition-colors cta-button inline-flex items-center justify-center gap-2"
+              >
+                <i class="fa-solid fa-envelope"></i> Email Us
+              </a>
+              <a
+                href="tel:+6498450700"
+                class="flex-1 bg-white border-2 border-blue-600 text-blue-600 py-4 rounded-lg font-bold text-lg hover:bg-blue-50 transition-colors cta-button inline-flex items-center justify-center gap-2"
+              >
+                <i class="fa-solid fa-phone"></i> Call Us
+              </a>
+            </div>
+            <p class="mt-8 text-sm text-slate-500 font-medium">
+              We aim to acknowledge new enquiries within one to two business
+              days.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer
+      class="bg-slate-900 text-slate-300 pt-16 pb-8 border-t border-slate-800"
+    >
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div
+          class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16"
+        >
+          <!-- Column 1: Brand & Info -->
+          <div class="space-y-6">
+            <a href="index.html" class="flex items-center">
+              <img
+                src="images/BTN Logo Final Transparent.png"
+                alt=""
+                class="h-14 md:h-16 w-auto shrink-0"
+              />
+              <span class="text-2xl font-bold text-white tracking-tight">
+                Behind the <span class="text-blue-400">Numbers</span
+                ><span class="text-xs align-top ml-1">Ltd</span>
+              </span>
+            </a>
+            <p class="text-sm leading-relaxed">
+              A Licensed Chartered Accountancy public practice providing
+              forward-thinking accounting, tax, and business advisory services
+              to Auckland's SME community.
+            </p>
+            <div class="flex gap-4">
+              <a
+                href="https://www.linkedin.com/company/behindthenumbers"
+                class="text-slate-400 hover:text-white transition-colors text-xl"
+                aria-label="LinkedIn Profile"
+              >
+                <i class="fa-brands fa-linkedin"></i>
+              </a>
+              <a
+                href="https://www.facebook.com/behindthenumbers"
+                class="text-slate-400 hover:text-white transition-colors text-xl"
+                aria-label="Facebook Page"
+              >
+                <i class="fa-brands fa-facebook"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Column 2: Quick Links -->
+          <div class="">
+            <h4
+              class="text-white font-bold mb-6 uppercase tracking-wider text-sm"
+            >
+              Quick Links
+            </h4>
+            <ul class="space-y-4 text-sm">
+              <li>
+                <a
+                  href="#services"
+                  class="hover:text-blue-400 transition-colors"
+                  >Services</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#who-we-help"
+                  class="hover:text-blue-400 transition-colors"
+                  >Who We Help</a
+                >
+              </li>
+              <li>
+                <a href="#why-us" class="hover:text-blue-400 transition-colors"
+                  >Why Us</a
+                >
+              </li>
+              <li>
+                <a href="#reviews" class="hover:text-blue-400 transition-colors"
+                  >Reviews</a
+                >
+              </li>
+              <li>
+                <a href="#blogs" class="hover:text-blue-400 transition-colors"
+                  >Blogs</a
+                >
+              </li>
+              <li>
+                <a href="#about" class="hover:text-blue-400 transition-colors"
+                  >About</a
+                >
+              </li>
+              <li>
+                <a href="#contact" class="hover:text-blue-400 transition-colors"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <!-- Column 3: Contact Details -->
+          <div class="">
+            <h4
+              class="text-white font-bold mb-6 uppercase tracking-wider text-sm"
+            >
+              Contact Us
+            </h4>
+            <ul class="space-y-4 text-sm">
+              <li class="flex items-start gap-3">
+                <i class="fa-solid fa-location-dot mt-1 text-blue-400"></i>
+                <span class="leading-relaxed"
+                  >Suite 45, Royal Oak Mall, 691 Manukau Road, Royal Oak,
+                  Auckland 1023</span
+                >
+              </li>
+              <li class="flex items-center gap-3">
+                <i class="fa-solid fa-envelope text-blue-400"></i>
+                <a
+                  href="mailto:info@behindthenumbers.co.nz"
+                  class="hover:text-blue-400 transition-colors"
+                  >info@behindthenumbers.co.nz</a
+                >
+              </li>
+              <li class="flex items-center gap-3">
+                <i class="fa-solid fa-phone text-blue-400"></i>
+                <a
+                  href="tel:+6498450700"
+                  class="hover:text-blue-400 transition-colors"
+                  >+64 9 845 0700</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <!-- Column 4: Legal -->
+          <div class="">
+            <h4
+              class="text-white font-bold mb-6 uppercase tracking-wider text-sm"
+            >
+              Legal
+            </h4>
+            <ul class="space-y-4 text-sm">
+              <li>
+                <a
+                  href="/privacy-policy.html"
+                  class="hover:text-blue-400 transition-colors"
+                  >Privacy Policy</a
+                >
+              </li>
+              <li>
+                <a
+                  href="/terms.html"
+                  class="hover:text-blue-400 transition-colors"
+                  >Website Terms</a
+                >
+              </li>
+              <li class="text-slate-500 italic">NZ Company Number: 9446204</li>
+            </ul>
+          </div>
+        </div>
+
+        <div
+          class="pt-8 border-t border-slate-800 text-center md:text-left flex flex-col md:flex-row justify-between items-center gap-4"
+        >
+          <p class="text-xs text-slate-500">
+            &copy; 2026 Behind the Numbers Limited. All rights reserved.
+          </p>
+          <p class="text-xs text-slate-500">
+            Licensed Chartered Accountant &bull; Auckland, New Zealand
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      const btn = document.getElementById("mobile-menu-button");
+      const menu = document.getElementById("mobile-menu");
+
+      if (btn && menu) {
+        btn.addEventListener("click", () => {
+          const isExpanded = btn.getAttribute("aria-expanded") === "true";
+          btn.setAttribute("aria-expanded", String(!isExpanded));
+          menu.classList.toggle("hidden");
+        });
+      }
+
+      // Mobile Services and Blogs dropdown functionality
+      document.querySelectorAll(".mobile-dropdown-button").forEach((button) => {
+        button.addEventListener("click", () => {
+          const submenuId = button.getAttribute("aria-controls");
+          const submenu = document.getElementById(submenuId);
+          const isExpanded = button.getAttribute("aria-expanded") === "true";
+
+          // Close other dropdowns
+          document
+            .querySelectorAll(".mobile-dropdown-button")
+            .forEach((otherButton) => {
+              const otherId = otherButton.getAttribute("aria-controls");
+              const otherSubmenu = document.getElementById(otherId);
+
+              if (otherButton !== button) {
+                otherButton.setAttribute("aria-expanded", "false");
+                otherSubmenu.classList.remove("open");
+              }
+            });
+
+          // Toggle clicked dropdown
+          button.setAttribute("aria-expanded", String(!isExpanded));
+          submenu.classList.toggle("open", !isExpanded);
+        });
+      });
+
+      document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+        anchor.addEventListener("click", function (e) {
+          const href = this.getAttribute("href");
+          if (!href || href === "#") return;
+          const target = document.querySelector(href);
+          if (target) {
+            e.preventDefault();
+            if (menu && btn) {
+              menu.classList.add("hidden");
+              btn.setAttribute("aria-expanded", "false");
+            }
+            target.scrollIntoView({ behavior: "smooth" });
+          }
+        });
+      });
+
+      document.querySelectorAll(".faq-item button").forEach((button) => {
+        button.addEventListener("click", () => {
+          const item = button.parentElement;
+          const isExpanded = button.getAttribute("aria-expanded") === "true";
+          document.querySelectorAll(".faq-item").forEach((otherItem) => {
+            if (otherItem !== item) {
+              otherItem.classList.remove("active");
+              const otherButton = otherItem.querySelector("button");
+              if (otherButton)
+                otherButton.setAttribute("aria-expanded", "false");
+            }
+          });
+          item.classList.toggle("active");
+          button.setAttribute("aria-expanded", String(!isExpanded));
+        });
+      });
+    </script>
+  </body>
+</html>
